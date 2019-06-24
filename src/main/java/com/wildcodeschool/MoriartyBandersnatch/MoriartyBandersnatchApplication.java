@@ -30,28 +30,28 @@ public class MoriartyBandersnatchApplication {
 
 	@RequestMapping("/doctor/1")
 	@ResponseBody
-	public String Doctor1() {
+	public String doctor1() {
 
 	return "William Hartnell";	
 	}
 
 	@RequestMapping("/doctor/2")
 	@ResponseBody
-	public String Doctor2() {
+	public String doctor2() {
 
 	return "Christopher Eccleston";	
 	}
 
 	@RequestMapping("/doctor/3")
 	@ResponseBody
-	public String Doctor3() {
+	public String doctor3() {
 
 	return "Jodie Whittaker";	
 	}
 
 	@RequestMapping("/doctor/4")
 	@ResponseBody
-	public String Doctor4() {
+	public String doctor4() {
 
 	return "Paul McGann";	
 	}
